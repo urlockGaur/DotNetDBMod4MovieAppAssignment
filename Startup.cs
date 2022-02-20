@@ -5,6 +5,9 @@ using Microsoft.Extensions.Logging;
 
 namespace ApplicationTemplate;
 
+/// <summary>
+///     Used for registration of new interfaces
+/// </summary>
 internal class Startup
 {
     public IServiceProvider ConfigureServices()
@@ -16,7 +19,10 @@ internal class Startup
             builder.AddConsole();
             builder.AddFile("app.log");
         });
+
+        // Add new lines of code here to register any interfaces and concrete services you create
         services.AddTransient<IMainService, MainService>();
+        // services.AddTransient<IMyService, MyService>();
 
         return services.BuildServiceProvider();
     }
