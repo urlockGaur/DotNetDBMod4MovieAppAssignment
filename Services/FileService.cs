@@ -6,10 +6,15 @@ namespace ApplicationTemplate.Services;
 ///     This concrete service and method only exists an example.
 ///     It can either be copied and modified, or deleted.
 /// </summary>
-public class MyService : IMyService
+public class FileService : IFileService
 {
-    public void SomeMethod()
+    public void Read()
     {
-        throw new NotImplementedException();
+        Console.WriteLine("*** I am reading");
+    }
+
+    public void Write()
+    {
+        Console.WriteLine("*** I am writing");
     }
 }

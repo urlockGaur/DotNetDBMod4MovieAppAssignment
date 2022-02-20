@@ -4,7 +4,8 @@
 ///     This service interface only exists an example.
 ///     It can either be copied and modified, or deleted.
 /// </summary>
-internal interface IMyService
+public interface IFileService
 {
-    void SomeMethod();
+    void Read();
+    void Write();
 }
