@@ -8,6 +8,7 @@ namespace ApplicationTemplate.Services;
 /// </summary>
 public class MainService : IMainService
 {
+    string fileName = "movies.csv";
     private readonly IFileService _fileService;
     public MainService(IFileService fileService)
     {
@@ -29,11 +30,11 @@ public class MainService : IMainService
             // Is it part of the FileService or some other service?
             if (choice == "1")
             {
-                _fileService.Write();
+                _fileService.Write(fileName);
             }
             else if (choice == "2")
             {
-                _fileService.Read();
+                _fileService.Read(fileName);
             }
         }
         while (choice != "X");

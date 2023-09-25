@@ -1,4 +1,6 @@
-﻿namespace ApplicationTemplate.Services;
+﻿using System.Collections.Generic;
+
+namespace ApplicationTemplate.Services;
 
 /// <summary>
 ///     This service interface only exists an example.
@@ -6,6 +8,8 @@
 /// </summary>
 public interface IFileService
 {
-    void Read();
-    void Write();
+    void Read(string fileName);
+    void Write(string fileName);
+
+   
 }
