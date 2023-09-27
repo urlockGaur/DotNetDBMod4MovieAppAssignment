@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ApplicationTemplate.Services;
+namespace FramkeMod4MovieLibrary.Services;
 
 /// <summary>
 ///     You would need to inject your interfaces here to execute the methods in Invoke()

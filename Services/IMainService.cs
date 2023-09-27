@@ -1,4 +1,4 @@
-﻿namespace ApplicationTemplate.Services;
+﻿namespace FramkeMod4MovieLibrary.Services;
 
 public interface IMainService
 {

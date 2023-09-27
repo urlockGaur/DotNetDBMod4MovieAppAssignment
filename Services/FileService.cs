@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using Microsoft.Extensions.Logging;
 
-namespace ApplicationTemplate.Services;
+namespace FramkeMod4MovieLibrary.Services;
 
 /// <summary>
 ///     This concrete service and method only exists an example.

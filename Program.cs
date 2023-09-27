@@ -1,8 +1,8 @@
 ﻿using System;
-using ApplicationTemplate.Services;
+using FramkeMod4MovieLibrary.Services;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ApplicationTemplate;
+namespace FramkeMod4MovieLibrary;
 
 public class Program
 {

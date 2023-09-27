@@ -1,9 +1,9 @@
 ﻿using System;
-using ApplicationTemplate.Services;
+using FramkeMod4MovieLibrary.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace ApplicationTemplate;
+namespace FramkeMod4MovieLibrary;
 
 /// <summary>
 ///     Used for registration of new interfaces

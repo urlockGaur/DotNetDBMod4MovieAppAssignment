@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ApplicationTemplate.Services;
+namespace FramkeMod4MovieLibrary.Services;
 
 /// <summary>
 ///     This service interface only exists an example.
