@@ -20,7 +20,7 @@ public class MainService : IMainService
             Console.WriteLine("1) Add Movie");
             Console.WriteLine("2) Display All Movies");
             Console.WriteLine("X) Quit");
-            choice = Console.ReadLine().ToUpper();
+            choice = Console.ReadLine().ToUpper(); // in case user enters x
 
           
             if (choice == "1")
